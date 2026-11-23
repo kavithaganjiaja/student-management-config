@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: EntrollmentService
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/enrollment_db
+    username: root
+    password: admin1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 3333
