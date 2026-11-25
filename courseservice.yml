@@ -22,6 +22,6 @@ management:
       enabled: true
 info:
   app:
-    name: Student Management Service
+    name: Course Management Service
     description: Course CRUD Microservice
     version: 1.0.0
