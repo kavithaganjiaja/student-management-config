@@ -14,12 +14,14 @@ server:
   port: 1111
 management:
   endpoints:
-    endpoint:
-    health:
-      show-details: always
     web:
       exposure:
         include: health,info,metrics
+
+  endpoint:
+    health:
+      show-details: always
+
   info:
     env:
       enabled: true
