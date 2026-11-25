@@ -12,18 +12,20 @@ spring:
     show-sql: true
 server:
   port: 1111
-info:
-  app:
-    name: Student Management Service
-    description: Student CRUD Microservice
-    version: 1.0.0
-management:
-  info:
-    env:
-      enabled: true
-
 management:
   endpoints:
     web:
       exposure:
         include: health,info,metrics
+management:
+  info:
+    env:
+      enabled: true
+info:
+  app:
+    name: Student Management Service
+    description: Student CRUD Microservice
+    version: 1.0.0
+
+
+
