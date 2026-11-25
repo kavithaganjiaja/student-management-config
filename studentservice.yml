@@ -22,6 +22,11 @@ management:
     health:
       show-details: always
 
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
   info:
     env:
       enabled: true
