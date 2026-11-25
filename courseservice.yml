@@ -12,3 +12,16 @@ spring:
     show-sql: true
 server:
   port: 2222
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  info:
+    env:
+      enabled: true
+info:
+  app:
+    name: Student Management Service
+    description: Course CRUD Microservice
+    version: 1.0.0
