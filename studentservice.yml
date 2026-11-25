@@ -17,3 +17,13 @@ info:
     name: Student Management Service
     description: Student CRUD Microservice
     version: 1.0.0
+management:
+  info:
+    env:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
